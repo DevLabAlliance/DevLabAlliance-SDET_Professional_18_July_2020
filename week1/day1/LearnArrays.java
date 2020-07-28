@@ -2,8 +2,7 @@ package week1.day1;
 
 public class LearnArrays {
 
-	public static void main(String[] args) {
-		
+	public static void main(String[] args) {		
 		int numbers[] = {1, 5, 7, 8};
 		for (int i : numbers) {
 			System.out.println(i);
