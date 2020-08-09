@@ -2,6 +2,8 @@ package week1.day2;
 
 public class Car {
 	
+	
+	
 	private int mycarNumber = 1234; // instance variable // global // class level
 
 	// properties => variable
