@@ -7,7 +7,7 @@ import org.testng.annotations.Test;
 import commonFunctions.PrePost;
 
 public class TC002 extends PrePost {
-	@Test
+	@Test(enabled = false)
 	public void tc002_alert() throws InterruptedException {
 		
 		// goto alert page
