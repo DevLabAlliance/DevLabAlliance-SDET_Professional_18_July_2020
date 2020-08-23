@@ -32,7 +32,7 @@ public class PrePost {
 	}
 	
 	
-	@DataProvider(name = "login")
+	@DataProvider(name = "login", indices = 0)
 	public String[][] testData() {
 		ReadData rd = new ReadData();
 		return rd.getData(excelname);
